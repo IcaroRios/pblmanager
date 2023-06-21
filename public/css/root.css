@@ -1,0 +1,88 @@
+:root {
+    --primary-light-color: #7496d4;
+    --primary-color: #002f87;
+    --primary-dark-color: #001d54;
+  
+    --secondary-light-color: #ff8747;
+    --secondary-color: #f46214;
+    --secondary-dark-color: #d94b00;
+  
+    --dark-light-color: #464545;
+    --dark-color: #100f0f;
+  
+    --light-color: #fafafa;
+  
+    --danger-color: #eb5757;
+    --success-color: #27ae60;
+  
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+  }
+  html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Poppins", "Open Sans",
+      "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+      "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-display: swap;
+  }
+  h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 110%;
+  }
+  h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 110%;
+  }
+  
+  h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+  }
+  
+  h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 120%;
+  }
+  
+  h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+  }
+  
+  h6 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  
+  p {
+    margin: 0px !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  
