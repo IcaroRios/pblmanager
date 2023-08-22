@@ -1,10 +1,6 @@
 # PBL Manager
 O **PBL Manager** é uma aplicação web baseada em PHP Laravel projetada para simplificar o gerenciamento e a aplicação da metodologia de Aprendizagem Baseada em Problemas (PBL - Problem-Based Learning). Esta ferramenta permite que educadores e alunos criem, acompanhem e colaborem em projetos baseados em problemas de forma eficaz.
 
-
-
-
-
 ## Requisitos de Sistema
 Antes de começar a configurar e executar o **PBL Manager**, certifique-se de que seu sistema atende aos seguintes requisitos:
 
@@ -80,4 +76,13 @@ git push origin feature/sua-feature
 ```
 4. Abra um pull request para a branch principal deste repositório ou fique livre para usar a fork que você criou.
 
+## Dicas da organização dos arquivos e aplicação da arquitetura MVC:
+- Faça as alterações no banco de dados sempre criando uma nova migration na pasta `database/migrations`
+- Se quer mais dados pré preenchidos use os seeds na pasta `database/seeds`.
+- O arquivo `routes/web.php` controla todas as rotas do serviço.
+  
+- Dentro da pasta `app/Models` ficam os models que podem ser utilizado para manipular a informação e o banco de dados usando o `Eloquent`
+- Dentro das pastas `resources/views` Tem pastas referentes as visões dos usuários como `admin`, `aluno`, `tutor` e `visitante`
+    - Também fica contido uma pasta de `layout` com componentes compartilhados entre os tipos de usuários.
+- Dentro da pasta `app\Http\Controllers` ficam os controllers que controlam a aplicação e é um para cada Model.
 
